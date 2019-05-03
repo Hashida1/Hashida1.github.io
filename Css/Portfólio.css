@@ -8,8 +8,8 @@ body{
 }
 
 img {
-    width: 150px;
-    height: 125px;
+    width: auto;
+    height: auto;
     margin: auto 10px auto auto;
     float:left;
 }
@@ -36,12 +36,12 @@ article{
     margin: 5px auto 10px auto;
     padding: 20px;
     height: auto;
-    width: 700px;
+    width: auto;
     float:left;
 }
 article img{
-    width: 150px;
-    height: 125px;
+    width: auto;
+    height: auto;
     margin: auto 10px auto auto;
     float:left;
 }
@@ -52,3 +52,4 @@ aside{
     box-sizing: border-box;
     border-color: black;
 }
+
