@@ -8,8 +8,8 @@ body{
 }
 
 img {
-    width: auto;
-    height: auto;
+    width: 150px;
+    height: 125px;
     margin: auto 10px auto auto;
     float:left;
 }
@@ -36,12 +36,12 @@ article{
     margin: 5px auto 10px auto;
     padding: 20px;
     height: auto;
-    width: auto;
+    width: 700px;
     float:left;
 }
 article img{
-    width: auto;
-    height: auto;
+    width: 150px;
+    height: 125px;
     margin: auto 10px auto auto;
     float:left;
 }
@@ -51,5 +51,15 @@ aside{
     margin: 25px auto 10px auto;
     box-sizing: border-box;
     border-color: black;
+    position:static;
+    width: auto;
+    height: : auto;
 }
 
+@media screen and (max-device-width: 900px){
+    .menu {width: 600px;}
+}
+
+@media screen and (max-device-width: 700px){
+    .menu {width: 400px;}
+}
