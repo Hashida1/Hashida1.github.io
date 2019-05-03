@@ -1,0 +1,54 @@
+body{
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    color: greenyellow;
+    font-family: "Rockwell";
+    margin: 50px 50px 50px 150px;
+}
+
+img {
+    width: 150px;
+    height: 125px;
+    margin: auto 10px auto auto;
+    float:left;
+}
+
+
+h1{
+    font-size: 46px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.rotate{
+    transform: rotate(270deg);
+}
+
+article{
+    box-sizing: border-box;
+    margin: 5px auto 10px auto;
+    padding: 20px;
+    height: auto;
+    width: 700px;
+    float:left;
+}
+article img{
+    width: 150px;
+    height: 125px;
+    margin: auto 10px auto auto;
+    float:left;
+}
+
+aside{
+    float: right;
+    margin: 25px auto 10px auto;
+    box-sizing: border-box;
+    border-color: black;
+}
